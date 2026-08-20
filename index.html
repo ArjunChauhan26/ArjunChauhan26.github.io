@@ -1,122 +1,369 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Arjun Chauhan</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <style>
+<title>Arjun Chauhan | Portfolio</title>
 
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
+<style>
 
-        .hero {
-            background: #0f172a;
-            color: white;
-            text-align: center;
-            padding: 80px;
-        }
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
-        .section {
-            padding: 50px;
-        }
+html{
+    scroll-behavior:smooth;
+}
 
-        h1 {
-            margin: 0;
-            font-size: 50px;
-        }
+body{
+    font-family:Segoe UI, sans-serif;
+    background:#0f172a;
+    color:white;
+    line-height:1.6;
+}
 
-        h2 {
-            color: #2563eb;
-        }
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
 
-        .skills span {
-            background: #e5e7eb;
-            padding: 10px;
-            margin: 5px;
-            display: inline-block;
-            border-radius: 5px;
-        }
+.hero{
+    text-align:center;
+    padding:80px 20px;
+}
 
-    </style>
+.hero img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+    border:4px solid #3b82f6;
+}
 
+.hero h1{
+    font-size:3rem;
+    margin-top:20px;
+}
+
+.hero h2{
+    color:#60a5fa;
+    margin-top:10px;
+}
+
+.hero p{
+    margin-top:20px;
+    font-size:1.1rem;
+}
+
+.btn{
+    display:inline-block;
+    margin:15px 10px;
+    padding:12px 24px;
+    text-decoration:none;
+    color:white;
+    background:#2563eb;
+    border-radius:8px;
+}
+
+section{
+    padding:60px 0;
+}
+
+h3{
+    color:#60a5fa;
+    margin-bottom:25px;
+    font-size:2rem;
+}
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px;
+}
+
+.skill{
+    background:#1e293b;
+    padding:10px 18px;
+    border-radius:20px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#1e293b;
+    padding:20px;
+    border-radius:12px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-6px);
+}
+
+.timeline{
+    border-left:3px solid #3b82f6;
+    padding-left:20px;
+}
+
+.timeline-item{
+    margin-bottom:30px;
+}
+
+.badges{
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px;
+}
+
+.badge{
+    background:#2563eb;
+    padding:12px 18px;
+    border-radius:30px;
+}
+
+.contact a{
+    color:#60a5fa;
+    text-decoration:none;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    background:#020617;
+    margin-top:60px;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:2rem;
+}
+
+.hero h2{
+font-size:1.1rem;
+}
+
+}
+
+</style>
 </head>
 
 <body>
 
 <div class="hero">
 
-    <h1>Arjun Chauhan</h1>
+<img src="profile.jpg" alt="Arjun Chau>Arjun Chauhan</h1>
 
-    <h3>Lead Implementation Engineer</h3>
+<h2>
+Software Implementation Manager
+</h2>
 
-    <p>
-        Azure | Kubernetes | DevOps | Observability
-    </p>
+<p>
+Techno-Functional Consultant • Business Analyst • Product Owner
+</p>
 
-</div>
+<p>
+Specializing in MES, WMS, Warehouse Automation,
+ERP Integration and Agile Delivery
+</p>
 
-<div class="section">
+<a class="btn"nload Resume
+</a>
 
-    <h2>About Me</h2>
-
-    <p>
-        Lead Implementation Engineer with expertise in cloud
-        platforms, Kubernetes, Azure, DevOps automation,
-        observability, and enterprise implementations.
-    </p>
-
-</div>
-
-<div class="section">
-
-    <h2>Technical Skills</h2>
-
-    <div class="skills">
-
-        <span>Azure</span>
-
-        <span>Kubernetes</span>
-
-        <span>Azure DevOps</span>
-
-        <span>Docker</span>
-
-        <span>Helm</span>
-
-        <span>Grafana</span>
-
-        <span>Jaeger</span>
-
-        <span>Prometheus</span>
-
-        <span>Python</span>
-
-    </div>
+<a class="btn" href="https://www.linkedin.com/in/arjun-chauhan-048
 
 </div>
 
-<div class="section">
+<section class="container">
 
-    <h2>Featured Projects</h2>
+<h3>About Me</h3>
 
-    <ul>
-        <li>Grafana + Jaeger Observability Platform</li>
-        <li>Azure DevOps Reporting Automation</li>
-        <li>Kubernetes Platform Operations</li>
-    </ul>
+<p>
+Software Implementation Manager with 9+ years of experience delivering enterprise MES, WMS and ERP-integrated solutions across manufacturing and warehouse automation domains.
+
+Experienced in business analysis, stakeholder management, solution consulting, Agile delivery, requirements gathering, testing management and large-scale enterprise implementations.
+</p>
+
+</section>
+
+<section class="container">
+
+<h3>Core Expertise</h3>
+
+<div class="skills">
+
+<div class="skill">Business Analysis</div>
+<div class="skill">Functional Consulting</div>
+<div class="skill">Product Ownership</div>
+<div class="skill">MES</div>
+<div class="skill">WMS</div>
+<div class="skill">SAP Integration</div>
+<div class="skill">Oracle Integration</div>
+<div class="skill">Agile Delivery</div>
+<div class="skill">Requirement Management</div>
+<div class="skill">SQL</div>
+<div class="skill">Azure DevOps</div>
+<div class="skill">Jira</div>
 
 </div>
 
-<div class="section">
+</section>
 
-    <h2>Contact</h2>
+<section class="container">
 
-    <p>LinkedIn: Add your LinkedIn URL</p>
+<h3>Featured Projects</h3>
 
-    <p>GitHub: github.com/ArjunChauhan26</p>
+<div class="cards">
+
+<div class="card">
+<h4>Warehouse Automation</h4>
+<p>
+Large scale warehouse automation with WMS, SAP,
+ASRS, PTL, Conveyor and Robotics integration.
+</p>
+</div>
+
+<div class="card">
+<h4>Industry 4.0 MES Platform</h4>
+<p>
+MES implementation with ERP integration,
+machine connectivity and production traceability.
+</p>
+</div>
+
+<div class="card">
+<h4>IoT Monitoring Platform</h4>
+<p>
+Real-time production monitoring,
+OEE reporting and factory simulation.
+</p>
+</div>
+
+<div class="card">
+<h4>Warehouse Traceability</h4>
+<p>
+Raw material warehouse management integrated
+with Oracle ERP and inventory monitoring.
+</p>
+</div>
 
 </div>
+
+</section>
+
+<section class="container">
+
+<h3>Career Journey</h3>
+
+<div class="timeline">
+
+<div class="timeline-item">
+<h4>2024 - Present</h4>
+<p>Software Implementation Manager | Addverb Technology</p>
+</div>
+
+<div class="timeline-item">
+<h4>2022 - 2024</h4>
+<p>Senior Engineer | Motherson Technology Services</p>
+</div>
+
+<div class="timeline-item">
+<h4>2021 - 2022</h4>
+<p>MES Engineer | Samvardhana Motherson</p>
+</div>
+
+<div class="timeline-item">
+<h4>2017 - 2021</h4>
+<p>Junior Engineer → Engineer | Motherson Group</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="container">
+
+<h3>Achievements</h3>
+
+<div class="badges">
+
+<div class="badge">100% Customer Feedback</div>
+
+<div class="badge">Rising Star Award</div>
+
+<div class="badge">Star Performer</div>
+
+<div class="badge">Guru Recognition</div>
+
+<div class="badge">CEO Club</div>
+
+<div class="badge">Chairman's Club</div>
+
+<div class="badge">International Deployment</div>
+
+</div>
+
+</section>
+
+<section class="container">
+
+<h3>Certifications</h3>
+
+<ul>
+
+<li>ISTQB CTFL</li>
+
+<li>Scrum Foundation Professional</li>
+
+<li>Business Intelligence Foundation</li>
+
+<li>Project Management Foundation</li>
+
+<li>RabbitMQ Certification</li>
+
+<li>Introduction to IoT</li>
+
+<li>Google Analytics</li>
+
+</ul>
+
+</section>
+
+<section class="container contact">
+
+<h3>Contact</h3>
+
+<p>
+LinkedIn:
+<a href="https://www.linkedin.com/in/arjun-chauhan-0487061b0/" target="_blank">
+View Profile
+</a>.com">
+arjundelhi1100@gmail.com
+</a>
+</p>
+
+<p>
+GitHub:
+<a href="https://githubnChauhan26
+github.com/ArjunChauhan26
+</a>
+</p>
+
+</section>
+
+<footer>
+
+© 2026 Arjun Chauhan
+
+</footer>
 
 </body>
 </html>
